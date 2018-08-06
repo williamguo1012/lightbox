@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.link {
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+}
+
+.lightbox-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.lightbox-content {
+  background-color: #fff;
+  padding: 20px;
+  position: absolute;
+  z-index: 101;
+  color: red;
+  width: 80vw;
+  left: 10vw;
+  height: 80vh;
+  top: 10vh;
+}
+
+.lightbox-close {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
